@@ -1,0 +1,258 @@
+<html>
+<head>
+<title>astxikner</title>
+
+
+
+<style>
+
+body{
+background:black;
+}
+
+#d1{
+position:absolute;
+width:375px;
+height:375px;
+background:lime;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;	;	
+perspective:50px;
+}
+
+#d2{
+position:absolute;
+width:375px;
+height:375px;
+background:#adadad;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;		
+perspective:50px;
+}
+
+#d3{
+position:absolute;
+width:375px;
+height:375px;
+background:#cc8899;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;		
+perspective:50px;
+}
+
+#d4{
+position:absolute;
+width:375px;
+height:375px;
+background:#f73782;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;	
+perspective:50px;
+}
+
+#d7{
+position:absolute;
+width:375px;
+height:375px;
+background:lime;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;	
+perspective:50px;
+}
+
+#d8{
+position:absolute;
+width:375px;
+height:375px;
+background:purple;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;	
+perspective:50px;
+}
+
+#d5{
+position:absolute;
+width:375px;
+height:375px;
+background:#cc8899;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;	
+perspective:50px;
+}
+
+#d6{
+position:absolute;
+width:375px;
+height:375px;
+background:#f73782;
+border: 2px solid green;
+
+transition:2s;
+left:450px;
+top:100px;		
+perspective:50px;
+}
+
+	
+</style>
+</head>
+<body>
+<center>
+<div id="d1"> </div>
+<div id="d2"> </div>
+<div id="d3"> </div>
+<div id="d4"> </div>
+<div id="d5"> </div>
+<div id="d6"> </div>
+<div id="d7"> </div>
+<div id="d8"> </div>
+
+</center>
+<script>
+var z=["&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp"];
+var x=' ';
+var y='*';
+var j=4;
+var t=1;
+
+for(i=1;i<=j;i++){
+	x+="&nbsp;";
+
+		
+				z.pop();
+				z.pop();
+	
+  var vzgo=z.join("");
+	 if(i<=j-1){
+	d1.innerHTML+=x+y+vzgo+y+"<br/>";
+	
+	function f2(){
+	return Math.floor(Math.random()*925+700)
+	}
+	function f4(){
+	return Math.floor(Math.random()*800+1)
+	}
+	function f5(){
+	return Math.floor(Math.random()*120+40)
+	}
+	function f3(){
+	return Math.floor(Math.random()*10+1)
+	}
+      var s=setInterval(function(){
+		
+        d1.style.transform += "rotatey(35deg)"
+       
+        d1.style.transform += "rotatex(14deg)"
+		     
+			 d2.style.transform += "rotatey(-64deg)"
+        d2.style.transform += "rotatex(-25deg)"
+	  
+	        d3.style.transform += "rotatey(18deg)"
+        d3.style.transform += "rotatex(22deg)"
+	  
+	        d4.style.transform += "rotatey(-35deg)"
+        d4.style.transform += "rotatex(-14deg)"
+	  
+	       d5.style.transform += "rotatey(135deg)"
+        d5.style.transform += "rotatex(114deg)"
+		     
+			 d6.style.transform += "rotatey(-164deg)"
+        d6.style.transform += "rotatex(-125deg)"
+	  
+	        d7.style.transform += "rotatey(118deg)"
+        d7.style.transform += "rotatex(122deg)"
+	  
+	        d8.style.transform += "rotatey(-135deg)"
+        d8.style.transform += "rotatex(-114deg)"
+		document.body.style.transition = "750ms";
+		document.body.style.background ="#"+f2();
+		
+		d1.style.left =f4()+"px";
+	    d2.style.left =f4()+"px";
+	    d3.style.left =f4()+"px";
+	    d4.style.left =f4()+"px";
+	    d5.style.left =f4()+"px";
+	    d6.style.left =f4()+"px";
+	    d7.style.left =f4()+"px";
+	    d8.style.left =f4()+"px";
+		
+		d1.style.top =f5()+"px";
+	    d2.style.top =f5()+"px";
+	    d3.style.top =f5()+"px";
+	    d4.style.top =f5()+"px";
+	    d5.style.top =f5()+"px";
+	    d6.style.top =f5()+"px";
+	    d7.style.top =f5()+"px";
+	    d8.style.top =f5()+"px";
+		
+	    d1.style.background = "#"+f2();
+	    d2.style.background = "#"+f2();
+	    d3.style.background = "#"+f2();
+	    d4.style.background = "#"+f2();
+	    d5.style.background = "#"+f2();
+	    d6.style.background = "#"+f2();
+	    d7.style.background = "#"+f2();
+	    d8.style.background = "#"+f2();
+		d1.style.border = f3()+"px inset #"+f2();
+	    d2.style.border = f3()+"px inset #"+f2();
+	    d3.style.border = f3()+"px inset #"+f2();
+	    d4.style.border = f3()+"px inset #"+f2();
+	    d5.style.border = f3()+"px inset #"+f2();
+	    d6.style.border = f3()+"px inset #"+f2();
+	    d7.style.border = f3()+"px inset #"+f2();
+	    d8.style.border = f3()+"px inset #"+f2();
+	  
+	  },2200)
+		}
+		else{ d1.innerHTML+=x+"&nbsp"+y;
+			
+		}
+	}
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
